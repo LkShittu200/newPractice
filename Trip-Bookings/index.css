@@ -5,4 +5,103 @@
 
 body {
   font-family: "Noto Serif", serif;
+  background: #b5ac49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+}
+
+.trip-container {
+  width: 400px;
+  min-height: 90%;
+  background: #4b460e;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trip-header {
+  background: #91850a;
+  padding: 15px 20px;
+  display: flex;
+  column-gap: 5rem;
+}
+
+.trip-header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.photo img {
+  width: 400px;
+}
+
+.view {
+  width: 130px;
+  background: #b5ac49;
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+  top: 42%;
+  left: 55%;
+  padding: 5px;
+  text-align: center;
+}
+
+.view a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.address {
+  background: #353109;
+  margin-top: -5px;
+  padding: 10px;
+}
+
+.address a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.add-location {
+  display: flex;
+  column-gap: 5px;
+}
+
+.text {
+  padding: 10px 20px;
+}
+
+.group-photos {
+  display: flex;
+}
+
+.group-photos img {
+  padding: 5px 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.users a {
+  color: aqua;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.message {
+  margin: 20px;
+  margin-left: 40px;
+}
+
+.message input {
+  width: 300px;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
 }
