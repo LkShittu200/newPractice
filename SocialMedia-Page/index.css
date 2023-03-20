@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #ffefba;
+  background: -webkit-linear-gradient(to right, #ffffff, #ffefba);
+  background: linear-gradient(to right, #ffffff, #ffefba);
+  font-family: "Noto Serif", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.mini {
+  position: absolute;
+  top: 10%;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  background: rgb(22, 22, 141);
+  border-radius: 50px;
+  margin-top: -10px;
+}
+
+.mini i {
+  color: #fff;
+  margin: 10px 15px;
+}
+
+.container {
+  width: 400px;
+  min-height: 400px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+.container-sm {
+  display: flex;
+  padding: 10px 30px;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.texts {
+  padding: 10px 5px;
+}
+
+.texts-one {
+  display: flex;
+}
+
+.texts-one h4 {
+  font-size: 0.8rem;
+}
+
+.texts-one h5 {
+  margin-left: 5px;
+  font-family: inherit;
+  font-weight: lighter;
+}
+
+.texts-two h5 {
+  font-family: inherit;
+  font-weight: lighter;
+}
+
+.time h6 {
+  font-weight: lighter;
+  color: #808080;
+}
+
+.container button {
+  background: #ffefba;
+  border-radius: 50px;
+  border: transparent;
+  padding: 5px 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 15px;
+  font-family: inherit;
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
